@@ -76,7 +76,6 @@ func main() {
 		log.Println("error initializing:", err)
 	}
 
-	log.Printf("Scanning with %v workers.", workers)
 
 	var (
 		res       []webanalyze.Result
